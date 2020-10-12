@@ -1,0 +1,28 @@
+{
+  "name": "therezor/ua-tax-number",
+  "description": "Ukraine tax number (INN, IPN) parser and validator.",
+  "type": "library",
+  "license": "GPL v3",
+  "require": {
+    "php": "^7.1"
+  },
+  "authors": [
+    {
+      "name": "Roman Nagirnyi",
+      "email": "rnagirnyi@smartcats.pro"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TheRezor\\UaTaxNumber\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TheRezor\\UaTaxNumber\\\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0|^9.0"
+  }
+}
