@@ -2,9 +2,9 @@
   "name": "therezor/ua-tax-number",
   "description": "Ukraine tax number (INN, IPN) parser and validator.",
   "type": "library",
-  "license": "GPL v3",
+  "license": "GPL-3.0-or-later",
   "require": {
-    "php": "^7.1"
+    "php": "^7.1|^8.0"
   },
   "authors": [
     {
