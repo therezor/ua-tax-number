@@ -22,7 +22,7 @@ class Decoder
         7,
     ];
     public const INN_GENDER_MALE = 'male';
-    public const INN_GENDER_FEMALE = 'male';
+    public const INN_GENDER_FEMALE = 'female';
 
     public static function isValid(string $inn): bool
     {
